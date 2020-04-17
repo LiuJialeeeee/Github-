@@ -13,13 +13,30 @@ git 在出现问题时会报错
 2. 每一个点代表一个版本,我们可以在时间线上对我们的代码进行管理
 <img src = "img/img-17.jpg"/>
 
-### 2.4 Git安装
-[下载地址](https://git-scm.com/downloads)
+## 3. Git安装
 
-就是下载就行,一路回车.<br>
-安装后我们需要先进行验证,验证git是否安装<br>
-我的是 win10 64位系统, 我就以 win10 举例
-1. powershell工具<br>
-powershell是 win10 系统的命令行操作系统, 进入方式有两种:第一种是 win + R, 在弹出的窗口输入powershell
+1. [下载地址](https://git-scm.com/downloads)
+  安装的时候我们一路回车就可以.
 
+2. 验证<br>
+  安装后我们需要先进行验证,验证git是否安装
+  我的是 win10 64位系统, 我就以 win10 举例
+  我们在验证的时候需要使用 powershell
+
+  **powershell**
+
+  其是 win10 系统的命令行操作系统, 进入方式有两种:
+
+  * 第一种是 win + R, 在弹出的窗口输入powershell
+    <img src = "img/img-19.jpg"/>
+
+  * 第二种方式是: 找个文件夹 shift + 右键, 之后选择 *在此处打开powershell窗口* 选项卡同样可以进入powershell.但是这种方法打开的 powershell 的位置是我们右键文件夹当前的位置, 也就是说,我们不用在powershell 里用命令行的形式去切换当前文件位置了.我们可以直接找到那个文件, 右键打开powershell
+
+  打开powershell 后我们就可以检查 git 的安装情况了
+
+  我们在 powershell 中输入: git --version(这个命令的意思是查询 git 的版本)
+
+  如果显示 git 的版本号,则证明 git 安装成功
+
+  
 
