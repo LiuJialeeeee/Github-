@@ -29,7 +29,7 @@ git 在出现问题时会报错
   其是 win10 系统的命令行操作系统, 进入方式有两种:
 
   * 第一种是 win + R, 在弹出的窗口输入powershell
-    <img src = "img/img-19.jpg"/>
+  <img src = "img/img-19.jpg"/>
 
   * 第二种方式是: 找个文件夹 shift + 右键, 之后选择 *在此处打开powershell窗口* 选项卡同样可以进入powershell.但是这种方法打开的 powershell 的位置是我们右键文件夹当前的位置, 也就是说,我们不用在powershell 里用命令行的形式去切换当前文件位置了.我们可以直接找到那个文件, 右键打开powershell
 
